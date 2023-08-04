@@ -1,0 +1,156 @@
+body {
+    background-color:black;
+    overflow: hidden;
+    margin: 0 auto;
+    background-image: url("img/746133.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Black bar top */
+.header{
+    background-color: black;
+    margin: 0 auto;
+    height: 64px;
+    width: 100%;
+    position: absolute;
+}
+
+/* Black bar bottom */
+.footer{
+    background-color: rgba(000, 000, 0000, 0.7);
+    margin: 0 auto;
+    height: 48px; /* "min-height" if the text is too long. */
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    color: white;
+    font-size: 13px;
+    text-align: center;
+    word-spacing: 2px;
+    letter-spacing: 1.5px;
+}
+
+/* Top Bar Name */
+.server-name {
+    margin-left: 12px;
+    margin-top: 6px;
+    margin-bottom: 35px;
+    color: white;
+    font-size: 26px;
+}
+/* Top Bar Under Name*/
+.server-owner-name {
+    margin-left: 11px;
+    margin-top: -34px;
+    margin-bottom: 14px;
+    color: #565656;
+    font-size: 14px;
+}
+
+/* Bottom Bar Text*/
+.epic-text {
+    position: absolute;
+    left: 50%;
+    width: 100%;
+    bottom: -29px;
+    transform: translate(-50%, -50%);
+}
+
+
+
+/*=-=-=-=-=-=-=-=- Box in screen -=-=-=-=-=-=-=-=*/
+
+
+
+/*Start Top Box*/
+.top-box {
+    position: absolute;
+    top: 395px;
+    left: 520px;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 380px;
+    height: 24px; /* Again, make it "min-height" if your text is too big*/
+}
+
+.top-text{
+    color: white;
+    position: absolute;
+    top: -6px;
+    left: 7px;
+    font-size: 14px;
+}
+
+/*End Top Box*/
+/*Start Mid Box*/
+
+.mid-box {
+    position: absolute;
+    top: 421px;
+    left: 520px;
+    background-color: black;
+    width: 380px;
+    height: 64px; /* Again, make it "min-height" if your text is too big*/
+}
+
+.mid-title{
+    color: white;
+    position: absolute;
+    top: -11px;
+    left: 7px;
+    font-size: 25px;    /*20 = 25 (-5) [-1]*/
+}
+
+
+.mid-sub {
+    color: white;
+    position: absolute;
+    top: 24px;
+    left: 7px;
+    font-size: 14px;    
+}
+
+/*End Top Box*/
+/*Start Img Box*/
+
+.img-box {
+    position: absolute;
+    top: 488px;
+    left: 520px;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 380px;
+    height: 190px;
+}
+
+.img-box-img {
+    height: 185px;
+    width: 370px;
+
+    position: absolute;
+    left: 5px;
+    top: 2px; 
+}
+
+
+/*End Img Box*/
+/*Start Bottom Box*/
+
+.bottom-box {
+    position: absolute;
+    top: 680px;
+    left: 520px;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 380px;
+    height: 25px;
+}
+
+.bottom-title {
+    position: absolute;
+    color: white;
+    font-size: 14px;
+    bottom: -7px;
+    left: 8px;
+}
+
+/*End Bottom Box*/
